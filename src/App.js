@@ -41,7 +41,7 @@ function App() {
         setProducts([...products, newProduct])
 	}
 
-	// UPDATE
+	// UPDATE - Ne fonctionne pas
     const fetchProduct = async (id) => {
         const res = await fetch(`http://localhost:5000/products/${id}`)
 
@@ -50,13 +50,15 @@ function App() {
 
         return data
     }
-	
+
+    // UPDATE - Ne fonctionne pas
     const updateProduct = async (id) => {
 
         // On récupère une donnée précise
         const productToUpdate = await fetchProduct(id)
         const updProduct = {...productToUpdate}
 
+        // Éditer updProduct dans le formulaire de AddProduct.js
 
         const res = await fetch(`http://localhost:5000/products/${id}`, {
             method: 'PUT',

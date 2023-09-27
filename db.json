@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "nom": "Sorel - Tivoli IV",
+      "description": "Botte imperméable noire pour femmes",
+      "prix": "200",
+      "categorie": "Bottes"
+    },
+    {
+      "id": 2,
+      "nom": "Dr. Martens - Jadon III Pisa",
+      "description": "Botte noire pour femmes",
+      "prix": "280",
+      "categorie": "Bottes"
+    },
+    {
+      "id": 3,
+      "nom": "Converse - Chuck 70 Hi",
+      "description": "Basket jaune vif pour femmes",
+      "prix": "79.98",
+      "categorie": "Chaussures"
+    },
+    {
+      "nom": "New Balance - CT 574",
+      "description": "Baskets blanches et bleues pour hommes",
+      "prix": "120",
+      "categorie": "Baskets",
+      "id": 4
+    }
+  ]
+}
